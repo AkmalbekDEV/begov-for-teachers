@@ -121,24 +121,24 @@ const Odd10 = () => {
             <table className="w-full text-center text-sm font-light mt-12 rounded-xl border-2 border-blue-500">
                 <thead className="border-b bg-blue-500 font-medium text-white">
                     <tr>
-                        <th scope="col" className="px-6 py-4">#</th>
-                        <th scope="col" className="px-6 py-4">Name</th>
-                        <th scope="col" className="px-6 py-4">Handle</th>
+                        <th scope="col" className="px-6 max-sm:px-[1px] py-4">#</th>
+                        <th scope="col" className="px-6 max-sm:px-[1px] py-4">Name</th>
+                        <th scope="col" className="px-6 max-sm:px-[1px] py-4">Handle</th>
                     </tr>
                 </thead>
                 <tbody>
                     {data.map((product) => {
                         return (
-                            <tr key={product.id} className="border-b-2 border-blue-500 text-lg font-medium">
-                                <td className="whitespace-nowrap px-6 py-4 font-medium">{product.id}</td>
-                                <td className="whitespace-nowrap px-6 py-4">{product.name}</td>
-                                <td className="whitespace-nowrap px-6 py-4">
+                            <tr key={product.id} className="border-b-2 border-blue-500 text-lg font-medium max-sm:text-sm">
+                                <td className="whitespace-nowrap px-6 max-sm:ml-[5px] py-4 font-medium">{product.id}</td>
+                                <td className="whitespace-nowrap px-6 max-sm:px-[5px] py-4">{product.name}</td>
+                                <td className="whitespace-nowrap px-6 max-sm:px-[5px] py-4">
                                     <div>
                                         <Popover className="bg-gray-200">
                                             <PopoverTrigger>
-                                                <Button className='px-5 py-1 rounded-xl bg-gray-200 text-blue-600'>Edit</Button>
+                                                <Button className='px-5 py-1 rounded-xl bg-gray-200 text-blue-600 max-sm:mr-[5px]'>Edit</Button>
                                             </PopoverTrigger>
-                                            <PopoverContent className='bg-gray-200 rounded-xl p-5 max-sm:mr-14'>
+                                            <PopoverContent className='bg-gray-200 rounded-xl p-5 max-sm:mr-20'>
                                                 <PopoverArrow />
                                                 <PopoverHeader className='flex items-center justify-between border-b-2 border-black pb-2 mb-2'>
                                                     Bugungi xatolari
