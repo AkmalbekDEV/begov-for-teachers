@@ -12,7 +12,7 @@ const Home = () => {
   const handleClick = () => setShow(!show)
   const toast = useToast()
 
-  const correctPassword = '6118481dbegov';
+  const correctPassword = '11016521';
 
   const handleLogin = (e) => {
     e.preventDefault()
