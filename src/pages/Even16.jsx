@@ -138,7 +138,7 @@ const Even16 = () => {
                                             <PopoverTrigger>
                                                 <Button className='px-5 py-1 rounded-xl bg-gray-200 text-blue-600 max-sm:mr-[5px]'>Edit</Button>
                                             </PopoverTrigger>
-                                            <PopoverContent className='bg-gray-200 rounded-xl p-5 max-sm:mr-20'>
+                                            <PopoverContent className='bg-gray-200 rounded-xl p-5 max-sm:mr-10'>
                                                 <PopoverArrow />
                                                 <PopoverHeader className='flex items-center justify-between border-b-2 border-black pb-2 mb-2'>
                                                     Bugungi xatolari
