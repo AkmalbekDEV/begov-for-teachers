@@ -9,6 +9,7 @@ import Odd10 from './pages/Odd10'
 import Odd14 from './pages/Odd14'
 import Odd16 from './pages/Odd16'
 import Even14 from './pages/Even14'
+import Odd17 from './pages/Odd17'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/odd10' element={<Odd10 />} />
         <Route path='/odd14' element={<Odd14 />} />
         <Route path='/odd16' element={<Odd16 />} />
+        <Route path='/odd17' element={<Odd17 />} />
       </Routes>
     </>
   )
